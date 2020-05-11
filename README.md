@@ -5,4 +5,4 @@ Blackjack simulator written in Python
   First upload
  
 Todo:
-  Make aces equal both 1 and 11
+  Make aces equal to both 1 and 11
