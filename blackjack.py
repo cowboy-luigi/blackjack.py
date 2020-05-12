@@ -67,12 +67,13 @@ print(" ~-...-||-...-~")
 print("       ||")
 print("      '--`")
 
-print("Blackjack.py")
+print("\033[1;31;40mBlackjack.py")
 
 print("Using standard instance of 8 decks: Player v. House")
 print("===================================================\n\n")
+print("\033[0;37;40m")
 
-cards = makedeck(1)
+cards = makedeck(8)
 shuffler = random.randint(1,100)
 
 for i in range(0,shuffler):
@@ -88,7 +89,7 @@ while len(cards) > 6:
 	playertotal = 0
 	dealertotal = 0
 	
-	print("Round "+ str(roundnum) + ":\n")
+	print("\033[1;31;40mRound "+ str(roundnum) + ":\n\033[0;37;40m")
 
 	player.append(cards.pop())
 	dealer.append(cards.pop())
